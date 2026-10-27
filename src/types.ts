@@ -44,10 +44,17 @@ type FormQuestion = {
     optionCallback?: (values: string[]) => { value: string; text: string }[];
 };
 
+
+type WindComponents = {
+    headwind: number;
+    crosswind: number;
+};
+
 export {
     AircraftData,
     AirportData,
     RunwayData,
     FormInformation,
     FormQuestion,
+    WindComponents,
 };
